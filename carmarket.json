@@ -1,0 +1,22 @@
+{
+    "cars":[
+        {
+            "vin" : "19UUA56813A085469",
+            "manufacturer" : "Toyota",
+            "model" : "Hillux",
+            "owner" : "NULL"
+        },
+        {
+            "vin" : "SAJEA51C84WD61380",
+            "manufacturer" : "Saab",
+            "model" : "750s",
+            "owner" : "NULL"
+        },
+        {
+            "vin" : "1G1PC5SH6B7188435",
+            "manufacturer" : "Chevrolet",
+            "model" : "Suburban",
+            "owner" : "NULL"
+        }
+    ]
+}
