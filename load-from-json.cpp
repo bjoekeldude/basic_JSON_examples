@@ -17,7 +17,7 @@ namespace meineFunktionen{
 int main(int argc, char** argv){
 
     std::ifstream inputfile{argv[1]};
-    nlohmann::json carDB{nlohmann::json::parse(inputfile};
+    nlohmann::json carDB{nlohmann::json::parse(inputfile)};
 
 
     for (auto& car : carDB["cars"]){
