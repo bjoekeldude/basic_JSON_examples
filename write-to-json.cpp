@@ -17,7 +17,7 @@ struct myType_t{
 
 
 int main(int argc, char** argv){
-    std::ofstream outputfile(argv[1]);
+    std::ofstream outputfile{argv[1]};
     if (!outputfile) std::abort;
     
     myType_t alpha{
@@ -25,7 +25,7 @@ int main(int argc, char** argv){
         .b{2}
     };
 
-    std::stringstream out = alpha.serialize();
+    std::stringstream out{alpha.serialize()};
 
     std::cout << out.str();
 
