@@ -6,9 +6,9 @@
 namespace meineFunktionen{
 
     void print_car_json(const nlohmann::json& car){
-            std::cout << car["vin"] << std::endl;
-            std::cout << car["manufacturer"] << std::endl;
-            std::cout << car["model"] << std::endl;
+        for(auto& key : car.items(){
+            std::cout << "Key: " << element.key() << ", Value: " << element.value() << std::endl;
+        }
     };
 
 }
